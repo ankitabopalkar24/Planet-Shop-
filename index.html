@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Shop</title>
+    <style>
+    
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+       * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: bold;
+        color: white;
+
+
+        }
+       body{
+        font-family:"Montserrat", sans-serif;
+       background-color: #2c2c2c;
+       }
+       header{
+       height: 70px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border-bottom: 1px solid black;
+
+       }
+       ul{
+
+display: flex;
+list-style-type: none;
+
+
+       }
+       ul li a{
+        margin: 0 5px;
+        border: 2px solid white;
+        padding: 0px 10px;
+        text-decoration: none;
+        border-radius: 50px;
+       }
+       .Logo{
+           border: 2px solid white;
+           padding: 0px 5px; 
+
+       }
+          .signup{
+            background-color: white;
+            color: black;   
+          }
+          .signup:hover{
+            background-color: black;
+            color: white;
+          }
+          main{
+             display: flex;
+            height: 90vh;
+            justify-content: space-evenly ;
+            align-items: center;
+            margin: 0px 150px;
+            flex-wrap: wrap;
+         }
+         main h2{
+            font-size: 30px;
+            text-transform: uppercase;
+         }
+         main p{
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 31.5px;
+            margin: 30px;
+         }
+
+         .contentleft{
+            flex:1
+         }
+         .contentmid{
+            flex:2
+
+         }
+         .contentright{
+            flex:1
+         }
+        .mercury{
+            max-width:500px;
+            height: auto;
+            
+        } 
+        .btn{
+            padding: 15px 30px;
+            background: white;
+            outline: none;
+            border: none;
+            color: black;
+            text-transform: uppercase;
+            border: 50px;
+            font-weight: 700 ;
+        }
+        .btn:hover{
+            background-color: #2c2c2c;
+            color: white;
+            border: 2px solid white;
+        }
+
+ </style>
+</head>
+<body>
+    <header>
+       <div class="logo">Logo</div>
+       <nav>
+          <ul>
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">offers</a> </li>
+            <li><a href="#">Buy Now</a> </li>
+            <li><a href="#">Sell now</a> </li>
+            <li><a href="#">about us</a> </li>
+            <li><a href="#" class="signup">Sign up</a> </li>
+          </ul>
+       </nav> 
+    </header>
+    <main>
+      <div class="contentleft">
+        <h2>Mercury</h2>
+      </div>
+
+    <div class="contentmid" >
+        <p>Mercury was an Italian manufacturing company of die-cast scale model cars. Based in Turin, Mercury was active from 1932 until 1980. 
+            Along with Dinky Toys in England, Mercury was a pioneer in 1:43 scale diecast toys made in Europe.
+        </p>
+        <button class="btn">Buy Now</button>
+    </div>
+    <div class="contentright">
+        <img src="mercury.jpg" class="mercury">
+    </div>
+ 
+            
+       
+    </main>
+</body>
+</html>
